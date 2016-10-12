@@ -1,0 +1,23 @@
+{
+  "name": "solidity-example",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "gulp watch",
+    "compile": "gulp compile",
+    "deploy": "gulp deploy",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "solidity",
+    "blockchain"
+  ],
+  "author": "Timmy Chang",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-contract-transform": "^0.1.1",
+    "gulp-watch": "^4.3.10"
+  }
+}
